@@ -19,5 +19,12 @@ public class ImperialController {
         return imperial.ounceToGram(a);
     }
 
+    @RequestMapping("/stoneToKilogram")
+    public double stoneToKilogram(
+            @RequestParam double a
+    ){
+        return imperial.ounceToGram(a);
+    }
+
 
 }

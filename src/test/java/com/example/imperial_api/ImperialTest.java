@@ -21,4 +21,17 @@ class ImperialTest {
         // Assert
         assertEquals(expected, result);
     }
+    @Test
+    void stoneToKilogramTest() {
+        // Arrage
+        double a = 1;
+
+        double expected =  6.35;
+
+        // Act
+        double result = imperial.stoneToKilogram(a);
+
+        // Assert
+        assertEquals(expected, result);
+    }
 }
